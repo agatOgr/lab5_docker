@@ -10,7 +10,7 @@
    ```bash
    docker build --build-arg VERSION=1.0.0 -t my-go-app .
 
-3. **Uruchomienie kontenera:
+3. Uruchomienie kontenera:
    ```bash
    docker run -d -p 8080:80 --name my-running-app my-go-app
 
