@@ -23,4 +23,4 @@
    docker port my-running-app
 
 6. **Uruchomienie aplikacji w przeglądarce:
-   [Kliknij tutaj, aby zobaczyć aplikację](http://localhost:8080/)
+   [http://localhost:8080/](http://localhost:8080/)
