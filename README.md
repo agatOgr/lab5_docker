@@ -25,3 +25,16 @@ docker port my-running-app
 
 Uruchomienie aplikacji w przeglądarce 
 http://localhost:8080/
+
+
+# Lab 5 - Docker
+
+## Wykonane czynności
+
+1. **Przygotowanie plików**:
+   - Pobranie obrazu Alpine: `alpine-minirootfs-3.21.3-aarch64.tar.gz`
+   - Utworzenie plików: `Dockerfile`, `main.go`, `nginx.conf`
+
+2. **Budowanie obrazu**:
+   ```bash
+   docker build --build-arg VERSION=1.0.0 -t my-go-app .
